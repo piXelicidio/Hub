@@ -21,11 +21,11 @@ Thank you for purchasing Pop-Off Zombies, a collection of unique polygonal zombi
  teen girl, and waiter*
 * *Generic or casual civilian types*
 
-![special zombies](media/zombieSetp5.png)
-![regular zombies](media/zombieSetp1.png)
-![regular zombies](media/zombieSetp2.png)
-![regular zombies](media/zombieSetp3.png)
-![regular zombies](media/zombieSetp4.png)
+![special zombies](media/zombieSetP5.png)
+![regular zombies](media/zombieSetP1.png)
+![regular zombies](media/zombieSetP2.png)
+![regular zombies](media/zombieSetP3.png)
+![regular zombies](media/zombieSetP4.png)
 
 | Asset | Count |
 |-|-|
