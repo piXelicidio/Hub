@@ -26,21 +26,14 @@ Welcome to the **City People Mega-Pack**! This package provides a diverse collec
 
 The **City People Mega-Pack** is designed to populate your urban environments with a rich variety of animated characters. Whether you're building a bustling cityscape, a serene town, or an interactive simulation, this pack offers the assets you need to create a dynamic and inclusive world. The Polyart style provides optimized characters, making them suitable for low-end devices and AR/VR simulations.
 
-## What's New
-### v1.3.1
-![](images/construction_update1.png)
-- **Added more construction workers**: New tradesperson man, tradesperson woman and thick (big) construction man. 
-- **Added construction tools**: New bonus props: Drill, hammer, hand saw, wrench and pipe wrench.
-- **Construction** has now its own separated folder from **professions** characters.
+## What's New in v1.4.0
 
-### v1.3.0
-![](images/disabilities_new.png)
-- **Enhanced Demo\_1\_Showcase Scene**: Hovering over characters now increases their size (focus effect), and clicking cycles through available material palettes.
-- **New Demo Scene**: Introduced **Demo\_2\_IsoCity**, an isometric view of a town populated with animated characters. A few simple buildings have been added to enhance the package with this scene.
-- **Inclusive Characters**: Added 8 new characters representing people with disabilities, each featuring 3 unique, tailored animations.
-- **CityPeople Script Update**: New method for easy material switching that intelligently replaces materials with the "people\_pal" prefix.
-- **URP Support**: Added Universal Render Pipeline (URP) compatibility with a package that replaces standard materials.
-- **Unity 6 Compatibility**: Fully tested and compatible with Unity 6.
+![](images/xmas_update.png)
+
+- Added Santa Claus and Mrs. Claus characters in costumes.
+- Added Christmass props: Snowman, tree, and gifts.
+- Demo scenes supports both input systems.
+- Included material converter patch both ways URP and Built-in.
 
 ## Characters Specs
 
@@ -68,11 +61,13 @@ The **City People Mega-Pack** is designed to populate your urban environments wi
 - **Description**: A beautifully crafted isometric town scene showcasing all animated characters from a top-down orthographic perspective.
 
 ## Character Groups | [WATCH VIDEO!](https://youtu.be/dUjK32yOMVo)
+
+- (2) **Costumes:** Christmas theme characters and props. Santa Claus and Mrs. Claus. **(NEW!!)**
 - (8) **People with disabilities:** Individuals using wheelchairs, crutches, prostetics, etc. 
 - (10) **Young adults:** Representing ages from 18 to 30.&#x20;
 - (20) **City:** Everyday city people in casual and business outfits.
 - (15) **Professionals:** Representing common professions.
-- (8) **Constrution:** Workers and tradespersons for building and manteniance. **(3 NEW!!)** 
+- (8) **Constrution:** Workers and tradespersons for building and manteniance.
 - (20) **Downtown:** Similar to 'City', but a little bit more fresh and modern.
 - (6) **Kids:** Young boys and girls about 10 to 15 years old.​
 - (10) **Elders:** Older individuals aged about 60-70 years old.
@@ -115,21 +110,30 @@ A single texture/material pair can be applied to all the characters in this pack
 
 Free tool [DA Poly Paint](https://assetstore.unity.com/packages/tools/painting/da-polypaint-low-poly-customizer-251157) can be used to further modify the UV 'painting' by model with ease.
 
-## URP Support
+## SRP Support
 
-To ensure compatibility with projects using the Universal Render Pipeline:
+Current version default to URP (Universal Render Pipeline).
+Follow the steps to conver to Built-in or rollback to URP at any time.
 
-1. **URP active:** Ensure Universal Renderer Pipeline is configured first.
-2. **Navigate**: Go to the `URP` folder in the package.
-3. **Install**: Import the`Mateials_URP (DoubleClickMe).unitypackage`.
-4. **Update Materials**: This will replace all standard materials with URP-ready alternatives.
+1. Navigate to folder **CityPeopleMegaPack/URP&Built-in**
+2. Double click one of the following packages to apply the patch:
+- **Convert-to-BUILT-IN**
+- **Convert-to-URP**
 
-## Unity 6 Compatibility
+Note about HDRP: While not converter patch is provided, supporting HDRP would need a few standard steps. Using the material convertion wizard and ajdusting lighting accordingly. 
 
-The **City People Mega-Pack** has been thoroughly tested with Unity 6 to guarantee seamless integration:
+## Unity  Compatibility
 
-- **Performance**: Optimized for the latest Unity engine enhancements.
-- **Features**: Fully compatible with new Unity 6 features and improvements.
+The **City People Mega-Pack** has been thoroughly tested with the following versions:
+
+- **2022.3 LTS** ✅ Native project.
+
+- **6000.0 LTS**: ✅ Tested and ready.
+- **6000.3 LTS**: ✅ Tested and ready.
+
+## 3ds Max source files
+
+Source files are not included to keep the package light for the mayority of users. If you need all the characters in .MAX format just drop an email to my address bellow and **please include your invoice number.**
 
 ## Support
 
