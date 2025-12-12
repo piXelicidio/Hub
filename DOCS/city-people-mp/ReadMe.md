@@ -115,7 +115,7 @@ Free tool [DA Poly Paint](https://assetstore.unity.com/packages/tools/painting/d
 Current version default to URP (Universal Render Pipeline).
 Follow the steps to conver to Built-in or rollback to URP at any time.
 
-1. Navigate to folder **CityPeopleMegaPack/URP&Built-in**
+1. Navigate to folder **CityPeople/URP&Built-in**
 2. Double click one of the following packages to apply the patch:
 - **Convert-to-BUILT-IN**
 - **Convert-to-URP**
