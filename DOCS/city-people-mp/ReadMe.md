@@ -30,44 +30,35 @@ The **City People Mega-Pack** is designed to populate your urban environments wi
 
 ![](images/xmas_update.png)
 
-- Added Santa Claus and Mrs. Claus characters in costumes.
-- Added Christmass props: Snowman, tree, and gifts.
-- Demo scenes supports both input systems.
+- Added **Santa Claus** and **Mrs. Claus** characters in costumes.
+- Added Christmas props: Snowman, tree, and gifts.
+- Now demo scenes supports both input systems.
 - Included material converter patch both ways URP and Built-in.
+- Added **new demo scene** for construction workers with tool handling animations.
 
 ## Characters Specs
 
 - Humanoid system compatible. (Original rig from 3ds Max Biped system)
-- Small texture dimensions 256x256 (Texture as apalette color)
+- Small texture dimensions 256x256 (Texture as palette color)
 - 2,000 average triangle count.
-- Characters are most time single optimized mesh, non-modular and without additinal LODs.
+- Characters are most time single optimized mesh, non-modular and without additional LODs.
 
-## Getting Started
+## Quick Start
 
 1. **Import the Package**: Download and import the **City People Mega-Pack** into your Unity project.
-2. **URP Setup (Optional)**: If you're using URP, navigate to the `URP` folder and install the provided package to update materials by double-clicking the Material\_URP unity package.
-3. **Explore Demo Scenes**: Open the demo scenes to see the characters in action!
+2. **Explore *Demo_Scenes* folder**: Open the demo scenes to see the characters in action!
+3. **URP/Built-in Setup**: Package materials import by default as URP (Models will appear pink on Built-in), to convert to Built-in go to **URP&Built-in** folder and double click the **convert-to-BUILT-IN** package patch.
+4. From **Prefabs** folder drag & drop any character to your own scene.
 
-## Demo Scenes
-
-### Demo Scene 1: Character Showcase
-
-- **File**: `Demo_1_Showcase.unity`
-- **Description**: An interactive scene where you can view all characters. Hover over them to see the focus effect, and click to cycle through different material palettes. Use arrow keys or screen buttons to navigate between character groups.
-
-### Demo Scene 2: Isometric City
-
-- **File**: `Demo_2_IsoCity.unity`
-- **Description**: A beautifully crafted isometric town scene showcasing all animated characters from a top-down orthographic perspective.
 
 ## Character Groups | [WATCH VIDEO!](https://youtu.be/dUjK32yOMVo)
 
 - (2) **Costumes:** Christmas theme characters and props. Santa Claus and Mrs. Claus. **(NEW!!)**
-- (8) **People with disabilities:** Individuals using wheelchairs, crutches, prostetics, etc. 
+- (8) **People with disabilities:** Individuals using wheelchairs, crutches, prosthetic, etc. 
 - (10) **Young adults:** Representing ages from 18 to 30.&#x20;
 - (20) **City:** Everyday city people in casual and business outfits.
 - (15) **Professionals:** Representing common professions.
-- (8) **Constrution:** Workers and tradespersons for building and manteniance.
+- (8) **Construction:** Workers and tradespersons for building and maintenance.
 - (20) **Downtown:** Similar to 'City', but a little bit more fresh and modern.
 - (6) **Kids:** Young boys and girls about 10 to 15 years old.​
 - (10) **Elders:** Older individuals aged about 60-70 years old.
@@ -87,15 +78,15 @@ The **City People Mega-Pack** is designed to populate your urban environments wi
 - **Characters with disabilities**:
   - Each has 3 tailored animations specific to their design and mobility aids: Idle, forward and talk.
 
-## CityPeople Component Script
+## Scripts (Included for demonstrative purposes)
 
-Located in the `Scripts` folder, the **CityPeople** component script offers basic functionality to control character behaviors and appearances. 
+**CityPeople Component Script**
 
-### Key Features
+This component script offers basic functionality to show the basic animations and switch palette material. 
 
-- **Material Switching Method**: Easily change a character's material palette using the new method: `public void SetPalette(Material mat)`
-  - **Usage**: This method replaces materials with the `people_pal` prefix while leaving other materials untouched.
-- **Auto Play Animation:** Setting this field to `True` in the inspector makes the character switch animations randomly for testing and demonstration purposes. 
+**SwapAndToolController**
+
+Located For the construction worker demonstrate how to periodically switch to a random tool and play the matching animation in a loop.
 
 ## Palette System and UV
 ![](images/PaletteTextures.png)
@@ -113,14 +104,14 @@ Free tool [DA Poly Paint](https://assetstore.unity.com/packages/tools/painting/d
 ## SRP Support
 
 Current version default to URP (Universal Render Pipeline).
-Follow the steps to conver to Built-in or rollback to URP at any time.
+Follow the steps to convert to Built-in or rollback to URP at any time.
 
 1. Navigate to folder **CityPeople/URP&Built-in**
 2. Double click one of the following packages to apply the patch:
 - **Convert-to-BUILT-IN**
 - **Convert-to-URP**
 
-Note about HDRP: While not converter patch is provided, supporting HDRP would need a few standard steps. Using the material convertion wizard and ajdusting lighting accordingly. 
+Note about HDRP: While not converter patch is provided, supporting HDRP would need a few standard steps. Using the material conversion wizard and adjusting lighting accordingly. 
 
 ## Unity  Compatibility
 
@@ -133,7 +124,7 @@ The **City People Mega-Pack** has been thoroughly tested with the following vers
 
 ## 3ds Max source files
 
-Source files are not included to keep the package light for the mayority of users. If you need all the characters in .MAX format just drop an email to my address bellow and **please include your invoice number.**
+Source files are not included to keep the package light for the majority of users. If you need all the characters in .MAX format just drop an email to my address bellow and **please include your invoice number.**
 
 ## Support
 
@@ -141,7 +132,7 @@ If you have any questions or need assistance:
 
 - **Email**: [denys.almaral@gmail.com](mailto\:denys.almaral@gmail.com)
 - **Website**: [DenysAlmaral.com](https://denysalmaral.com)
-- **Forum**: [Github Discussions](https://github.com/piXelicidio/Chat/discussions/2)
+- **Forum**: [GitHub Discussions](https://github.com/piXelicidio/Chat/discussions/2)
 
 ---
 
