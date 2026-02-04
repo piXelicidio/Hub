@@ -8,7 +8,7 @@ The Marine Set represents colorful reef fish designed to bring vibrant underwate
 
 ![Fish Inventory](readme_media~/fishInventory.jpg)
 
-![Coral Reef Inventory](readme_media~/CoralReefInventory.jpg)
+![Coral Reef Inventory](readme_media~/coralReefInventory.jpg)
 
 | Asset | Count |
 |-|-|
@@ -23,7 +23,7 @@ The Marine Set represents colorful reef fish designed to bring vibrant underwate
 
 ## Demo scenes
 
-### DemoBenchmark_Marine.unity
+### Demo_Marine_Benchmark.unity
 
 ![Demo Scene](readme_media~/demoScene.jpg)
 
@@ -35,8 +35,7 @@ Benchmark scene for marine fish. Use the buttons to multiply fish and observe pe
 
 Full marine showcase with coral reef environment, helpers like `GroupOfFish`, effects, and interactions.
 
-## Quick start (marine)
-
+## Quick start
 1. Drag any fish prefab into your scene.
 2. Assign an optional target GameObject in the `FishMotion` component.
 3. Press Play and manually move the target from the scene view to see swimming behavior.

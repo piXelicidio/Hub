@@ -1,35 +1,45 @@
-﻿# Fish Alive - Freshwater Content Guide
+﻿# Fish Alive Freshwater Set Overview
 
-![Fish Alive](readme_media~/fa_thumbnail_4_820x461px.jpg)
+![Fish Alive](readme_media~/aquarium_thumbnail_820p.jpg)
 
-This guide focuses on freshwater fish, aquarium assets, and freshwater demo scenes.
+The Freshwater Set represents tropical fish designed to help building ornamental aquariums and natural forest environments.
 
-## Freshwater content overview
+## What is included?
 
-![Fish Inventory](readme_media~/fishInventory.jpg)
+![Fish Inventory](readme_media~/fw_fish_inventory.jpg)
 
-Freshwater content includes:
+![Aquarium](readme_media~/aquarium_env.jpg)
 
-- Freshwater fish prefabs with 7 animations each
-- Freshwater aquarium static mesh set
-- Freshwater materials and textures
+| Asset | Count |
+|-|-|
+| Fish skinned meshes | 10 |
+| Animations (per fish) | 7 |
+| Average triangle count (per fish) | ~500 |
+| Aquarium static meshes | 19 |
+| Total script (.cs) files | 10 | 
+| Textures | 4 |
+| Materials | 7 |
+| Custom Shaders | 1 |
 
-## Freshwater demo scenes
+## Demo scenes
 
-### DemoBenchmark_Freshwater.unity
+### Demo_Freshwater_Benchmark.unity
 
-![Demo Scene](readme_media~/demoScene.jpg)
+![Demo Scene](readme_media~/demo_bench_fw.jpg)
 
 Benchmark scene for freshwater fish. Use the buttons to multiply fish and observe performance. The FPS is shown at the top left and fish count appears above the Reset button.
 
 ### Demo_Freshwater_Aquarium.unity
 
-A showcase scene featuring freshwater fish in a stylized aquarium environment.
+![Demo Scene](readme_media~/demo_aquarium_fw.jpg)
 
-## Quick start (freshwater)
+A showcase scene featuring freshwater fish in a stylized aquarium environment. Demonstrate the use of `GroupOfFish`, collision avoidance and interactions
 
-1. Drag a freshwater fish prefab into your scene.
-2. Assign a target GameObject in the `FishMotion` component.
-3. Press Play and move the target to see swimming behavior.
+## Quick start
 
-For scripts, behaviors, and shared setup, see `fishalive.md`.
+1. Drag a fish prefab into your scene.
+2. Assign an optional target GameObject in the `FishMotion` component.
+3. Press Play and manually move the target from the scene view to see swimming behavior.
+
+---
+**[Read more about scripts, behaviors, and shared setup](fishalive.md)**
