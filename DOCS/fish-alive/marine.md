@@ -1,22 +1,27 @@
-﻿# Fish Alive - Marine Content Guide
+﻿# Fish Alive Marine Set Overview
 
 ![Fish Alive](readme_media~/fa_thumbnail_4_820x461px.jpg)
 
-This guide focuses on the marine fish, coral reef assets, and marine demo scenes.
+The Marine Set represents colorful reef fish designed to bring vibrant underwater life ready to dive into your ocean scenes.
 
-## Marine content overview
+## What is included?
 
 ![Fish Inventory](readme_media~/fishInventory.jpg)
 
 ![Coral Reef Inventory](readme_media~/CoralReefInventory.jpg)
 
-Marine content includes:
+| Asset | Count |
+|-|-|
+| Fish skinned meshes | 10 |
+| Animations (per fish) | 7 |
+| Average triangle count (per fish) | ~460 |
+| Coral Reef static meshes | 21 |
+| Total script (.cs) files | 10 | 
+| Textures | 4 |
+| Materials | 7 |
+| Custom Shaders | 1 |
 
-- Marine fish prefabs with 7 animations each
-- Coral reef static meshes (21 items)
-- Marine materials and textures
-
-## Marine demo scenes
+## Demo scenes
 
 ### DemoBenchmark_Marine.unity
 
@@ -32,8 +37,9 @@ Full marine showcase with coral reef environment, helpers like `GroupOfFish`, ef
 
 ## Quick start (marine)
 
-1. Drag a marine fish prefab into your scene.
-2. Assign a target GameObject in the `FishMotion` component.
-3. Press Play and move the target to see swimming behavior.
+1. Drag any fish prefab into your scene.
+2. Assign an optional target GameObject in the `FishMotion` component.
+3. Press Play and manually move the target from the scene view to see swimming behavior.
 
-For scripts, behaviors, and shared setup, see `fishalive.md`.
+---
+**[Read more about scripts, behaviors, and shared setup](fishalive.md)**

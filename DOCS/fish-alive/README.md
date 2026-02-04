@@ -1,8 +1,8 @@
-﻿# Fish Alive Unity Package User Guides
+﻿# Fish Alive Unity Packages User Guide
 
 ![Fish Alive](readme_media~/fa_thumbnail_4_820x461px.jpg)
 
-Welcome to the Fish Alive Unity Package, a collection of low-poly animated reef and freshwater fish designed to bring vibrant underwater life to your AR/VR, mobile, and desktop games. With natural swimming and customizable behaviors, these fish are ready to dive into your scenes.
+Welcome to the Fish Alive Unity Package, a collection of low-poly animated fish designed to bring vibrant underwater life to your AR/VR, mobile, and desktop games. With natural swimming and customizable behaviors, these fish are ready to dive into your scenes.
 
 
 **[Marine Set, content overview](marine.md)**
