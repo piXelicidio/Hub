@@ -1,28 +1,13 @@
-﻿# Fish Alive - Common Guide
+﻿# Fish Alive Guide
 
-![Fish Alive](readme_media~/fa_thumbnail_4_820x461px.jpg)
-
-This guide covers the shared scripts, setup, and information common to both the marine and freshwater content sets.
-
-## What is included
-
-| Asset | Count |
-|-|-|
-| Fish skinned meshes | 20 |
-| Animations (per fish) | 7 |
-| Average triangle count (per fish) | ~460 |
-| Coral reef static meshes | 21 |
-| Freshwater aquarium static meshes | 1 (set) |
-| Total script (.cs) files | 8 |
-| Textures | 4 |
-| Materials | 7 |
-| Custom shaders | 1 |
+This guide covers the shared scripts, setup, and information common to Fish Alive animated fish sets.
 
 ## Quick start
 
-1. Drag a fish prefab into your scene.
-2. Assign a target GameObject in the `FishMotion` component.
-3. Press Play and move the target in Scene view to see swimming behavior.
+1. Drag a fish prefab into your scene from `FishAlive/Prefabs/Fish` 
+2. Assign an optional target GameObject in the `FishMotion` component.
+3. Press Play and move the target in Scene view. The fish will swim naturally and smooth trying to reach the target. 
+4. Animate the target from code or even assign another fish as a target to follow.
 
 ## The scripts
 
@@ -41,7 +26,7 @@ The GameObject to follow. The script pings its location at the frequency set in 
 - `Wander` means the fish swims around randomized positions near the target.
 - `Position` means it reaches the target position and stops.
 - `Transform` means it reaches the target position and rotation.
-- `PositionToBite` means it reaches a good position to bite the target, then can play a bite animation.
+- `PositionToBite` means it reaches a suitable position to bite the target, in order to play the bite animation next.
 
 **Config**
 
@@ -63,23 +48,25 @@ Reference to the Animator component.
 
 **Auto Motion**
 
-Disable to control motion via your own script. When disabled, `FishMotion` will not ping the target or update acceleration. You can then set `Final Acceleration` and call methods like `StartTurnTowardsDirection(...)`.
+Set to false to control motion via your own script. When disabled, `FishMotion` will not ping the target or update acceleration. You can then set `Final Acceleration` and call methods like `StartTurnTowardsDirection(...)`.
 
 **Avoidance Enabled**
 
 ![](readme_media~/avoidance.gif)
 
-Enables soft obstacle avoidance. The fish scans a cone in front of it and chooses a clean direction. It prioritizes smooth motion over strict collision avoidance.
+Enables soft obstacle avoidance. The fish scans a cone in front of it and chooses a clean direction. It prioritizes smooth motion over strict collision avoidance. So when the collision can't be avoided the fish could pass trough the collider.
 
-**Final Acceleration (scripting only)**
+**Final Acceleration (Manual motion via scripting)**
 
-Defines the target force for accelerated motion. The actual acceleration interpolates over time for smoother motion. Use this only when `Auto Motion` is disabled.
+Defines the target force for accelerated motion. The actual acceleration interpolates over time for smoother motion. Use this only when `Auto Motion` is disabled. 
+
+Setting `FinalAcceleration` is recommended over directly modifying speed for smooth swimming. At some point the fish will reach a constant speed thanks to liquid drag opposite force.  
 
 ### GroupOfFish component
 
 ![Group of Fish](readme_media~/groupOfFishComponent.jpg)
 
-`GroupOfFish` manages multiple fish at once. Add the `GroupOfFish` prefab to your scene and make fish its children. It can create targets, apply shared settings, and spawn additional fish.
+`GroupOfFish` manages multiple fish at once. Add the `GroupOfFish` prefab to your scene and make fish its children. It can create targets, apply shared settings, and spawn large groups of fish.
 
 ![Group Of Fish Inspector](readme_media~/groupOfFishInspector.jpg)
 
@@ -101,7 +88,7 @@ Defines the volume where fish are likely to swim. Targets move inside this volum
 
 **Use Hard Limits**
 
-Enables strict bounds that fish will never pass.
+Enables strict bounds that fish will never pass. Hard limits will effectively create collision planes that mimic an aquarium glass.
 
 **Hard Limits Size**
 
@@ -113,13 +100,14 @@ Offsets the hard limits relative to the group position.
 
 **Bubble Particles Prefab**
 
-Adds bubbles when fish are moving fast.
+Adds bubbles when fish are moving too fast.
 
 **Interactions**
 
 Adds biting interaction. Fish will bite anything tagged `food` and on layer 20.
 
-## Related guides
+## Back to...
 
-- Marine content and demos: `marine.md`
-- Freshwater content and demos: `freshwater.md`
+**[Marine Set overview](marine.md)**
+
+**[Freshwater Set overview](freshwater.md)**
