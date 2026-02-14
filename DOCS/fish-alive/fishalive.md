@@ -1,6 +1,6 @@
-﻿# Fish Alive Guide
+﻿# Fish Alive Documentation
 
-This guide covers the shared scripts, setup, and information common to Fish Alive animated fish sets.
+This document covers the shared scripts, setup, and information common to Fish Alive animated fish sets.
 
 ## Quick start
 
@@ -9,9 +9,9 @@ This guide covers the shared scripts, setup, and information common to Fish Aliv
 3. Press Play and move the target in Scene view. The fish will swim naturally and smooth trying to reach the target. 
 4. Animate the target from code or even assign another fish as a target to follow.
 
-## The scripts
+# The scripts
 
-### FishMotion component
+## FishMotion component reference
 
 ![Fish Motion component](readme_media~/fishMotionComponent.jpg)
 
@@ -62,7 +62,7 @@ Defines the target force for accelerated motion. The actual acceleration interpo
 
 Setting `FinalAcceleration` is recommended over directly modifying speed for smooth swimming. At some point the fish will reach a constant speed thanks to liquid drag opposite force.  
 
-### GroupOfFish component
+## <a id="groupoffish-ref"></a> GroupOfFish component reference
 
 ![Group of Fish](readme_media~/groupOfFishComponent.jpg)
 

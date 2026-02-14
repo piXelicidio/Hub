@@ -5,7 +5,7 @@ Welcome to the **City People Mega-Pack**! This package provides a diverse collec
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
+1. [Introduction](#intro)
 2. [What's New](#whats-new)
 3. [Characters Specs](#Characters-specs)
 4. [Getting Started](#getting-started)
@@ -22,7 +22,7 @@ Welcome to the **City People Mega-Pack**! This package provides a diverse collec
 
 ---
 
-## Introduction
+## <a id="intro"></a>Introduction
 
 The **City People Mega-Pack** is designed to populate your urban environments with a rich variety of animated characters. Whether you're building a bustling cityscape, a serene town, or an interactive simulation, this pack offers the assets you need to create a dynamic and inclusive world. The Polyart style provides optimized characters, making them suitable for low-end devices and AR/VR simulations.
 
