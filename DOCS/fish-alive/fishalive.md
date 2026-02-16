@@ -2,7 +2,11 @@
 
 This document covers the shared scripts, setup, and information common to Fish Alive animated fish sets.
 
+For the art assets see: [Freshwater Set overview](freshwater.md) and [Marine Set overview](marine.md)
+
 ## Quick start
+
+[WATCH THE VIDEO QUICK START](https://youtu.be/J7hRafAnY-I)
 
 1. Drag a fish prefab into your scene from `FishAlive/Prefabs/Fish` 
 2. Assign an optional target GameObject in the `FishMotion` component.
@@ -11,7 +15,7 @@ This document covers the shared scripts, setup, and information common to Fish A
 
 # The scripts
 
-## FishMotion component reference
+## <a id="fishmotion-ref"></a>FishMotion component reference
 
 ![Fish Motion component](readme_media~/fishMotionComponent.jpg)
 
@@ -106,7 +110,7 @@ Adds bubbles when fish are moving too fast.
 
 Adds biting interaction. Fish will bite anything tagged `food` and on layer 20.
 
-## Back to...
+## See also...
 
 **[Marine Set overview](marine.md)**
 

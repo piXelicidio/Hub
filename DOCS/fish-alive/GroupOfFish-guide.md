@@ -2,9 +2,11 @@
 
 The GroupOfFish component helps managing multiple fish instances, spawning, and movement boundaries. Automatically creates and assigns targets for the fish to follow.
 
-[WATCH THE VIDEO VERSION OF THIS GUIDE](https://youtu.be/WfykUmurnM0)
+[WATCH THE VIDEO GUIDE](https://youtu.be/WfykUmurnM0)
 
-## Basic Setup
+## Placing the prefab
+
+![](readme_media~/gof_guide_1.jpg)
 
 To get started, drop the GroupOfFish prefab into your scene. You can populate the group in two ways:
 
@@ -13,13 +15,13 @@ To get started, drop the GroupOfFish prefab into your scene. You can populate th
 
 **Runtime Spawning:** Use the `Multiply The Fish` list (detailed below) to instantiate multiple fish automatically.
 
-## Understanding Movement Limits
+## Setup Movement Limits
 
 The component uses two types of boundaries to control where fish swim:
 
 **Soft Limits (Natural Wandering):**
 
-The SoftLimitsSize defines the volume where the fish's targets are allowed to roam.
+The SoftLimitsSize defines the volume where the fish's targets are allowed to roam. Drawn as a green box when Show Gizmos is active.
 
 
 The system creates an internal target (an invisible GameObject) for each fish. These targets are constrained to the Soft Limits, but the fish themselves are not strictly bound to them.
@@ -28,11 +30,13 @@ The fish strictly follow targets, but the targets are what stay inside the box, 
 
 **Hard Limits (Strict Boundaries):**
 
-Enable `UseHardLimits` when you need a physical barrier, such as an aquarium glass or a cage.
+Enable `UseHardLimits` when you need a physical barrier, such as an aquarium glass or a cage. Drawn as a red box.
 
 This forces a hard check on the fish's position. If a fish hits the `HardLimitsSize` boundary, it is immediately stop and/or slide, preventing it from escaping the these limits.
 
 ## Spawning Population (Multiply The Fish)
+
+![](readme_media~/gof_multi_fish_list.jpg)
 
 You can increase density without manually placing every fish using the `Multiply The Fish` list in the Inspector.
 
@@ -55,9 +59,9 @@ You can increase density without manually placing every fish using the `Multiply
 
 - **Interactions**: Enables the FishInteract component, allowing fish to react to objects on specific layers (e.g., food).
 
-## See also..
+## See also...
 
 [GroupOfFish component reference](fishalive.md#groupoffish-ref)
 
-[Avoidance]()
+[Obstacle Avoidance](obstacle-avoidance.md)
 

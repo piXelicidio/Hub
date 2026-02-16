@@ -35,10 +35,6 @@ Benchmark scene for marine fish. Use the buttons to multiply fish and observe pe
 
 Full marine showcase with coral reef environment, helpers like `GroupOfFish`, effects, and interactions.
 
-## Quick start
-1. Drag any fish prefab into your scene.
-2. Assign an optional target GameObject in the `FishMotion` component.
-3. Press Play and manually move the target from the scene view to see swimming behavior.
+## See also...
 
----
-**[Read more about scripts, behaviors, and shared setup](fishalive.md)**
+**[Fish Alive Documentation](fishalive.md)**

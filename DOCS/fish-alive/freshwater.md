@@ -35,11 +35,12 @@ Benchmark scene for freshwater fish. Use the buttons to multiply fish and observ
 
 A showcase scene featuring freshwater fish in a stylized aquarium environment. Demonstrate the use of `GroupOfFish`, collision avoidance and interactions
 
-## Quick start
+### Demo_Freshwater_AvoidanceRiver.unity
 
-1. Drag a fish prefab into your scene.
-2. Assign an optional target GameObject in the `FishMotion` component.
-3. Press Play and manually move the target from the scene view to see swimming behavior.
+![Demo Scene](readme_media~/river_obstacles.jpg)
 
----
-**[Read more about scripts, behaviors, and shared setup](fishalive.md)**
+A showcase scene featuring a river segment. With focus on the collision avoidance setup.
+
+## See also...
+
+**[Fish Alive Documentation](fishalive.md)**
