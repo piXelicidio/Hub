@@ -112,6 +112,12 @@ Adds biting interaction. Fish will bite anything tagged `food` and on layer 20.
 
 ## See also...
 
+**[GroupOfFish Guide](GroupOfFish-guide.md)**
+
+**[Obstacle Avoidance Guide](obstacle-avoidance)**
+
 **[Marine Set overview](marine.md)**
 
 **[Freshwater Set overview](freshwater.md)**
+
+
