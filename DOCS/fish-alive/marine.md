@@ -33,7 +33,9 @@ Benchmark scene for marine fish. Use the buttons to multiply fish and observe pe
 
 ![Demo Pretty Coral Reef](readme_media~/demoPretty.jpg)
 
-Full marine showcase with coral reef environment, helpers like `GroupOfFish`, effects, and interactions.
+Full marine showcase with coral reef environment, helpers like `GroupOfFish`, effects, and interactions. 
+
+[LOAD LIVE-WEB-DEMO! (9.9mb)](https://denysalmaral.com/gamedev/fish-alive-coralreef/index.html)
 
 ## See also...
 
